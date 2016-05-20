@@ -44,11 +44,18 @@ def get_img_url(bucket_url,file_name):
 def save_to_txt(bucket_url,file_name):
     # get url
     url_before_save = get_img_url(bucket_url,file_name)
+    # save to clipBoard
+    addToClipBoard(url_before_save)
+    
     # save md_url to txt
     with open(md_url_result, "a") as f:
         f.write(url_before_save)
     return
-
+   
+# save to clipboard
+def addToClipBoard(text):
+	command = 'echo ' + text.strip() + '| clip'
+	os.system(command)
 
 
 if __name__ == '__main__':
