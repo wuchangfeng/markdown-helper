@@ -1,4 +1,11 @@
 
+### ChangeLog
+
+* in 1.0 version ,you can get md_url from txt
+* in 1.1 version,you can not only get all md_urls from txt,also you can get the last md_url from clipboard(直接右键黏贴复制即可).
+
+
+
 ### About 
 
 You can drop more than one img to .py file above  and it will auto runs and generates markdown url which save in txt file  
