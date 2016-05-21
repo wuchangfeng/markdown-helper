@@ -27,6 +27,8 @@ Maybe for running the script in **windows** ,you need do some other work [Add Re
 
 Register in qiniu or other platform ,get some keys. 
 
+and source code is very easy,**you can do anything you want with these code**!
+
 all is easy  for pythoner!
 
 enjoy!!!
@@ -35,8 +37,12 @@ enjoy!!!
 
 * in 1.0 version ,you can get md_url from txt
 * in 1.1 version,you  not only can get all md_urls from txt file,also you can get the lastest markdown url from your clipboard.
+* in next version i want to add the function that can  compress the img and resize img! you can pull and request.
 
-### v1.0
+
+### Use and Effect
+
+#### v1.0
 
 ![md.gif](http://7xrl8j.com1.z0.glb.clouddn.com/md.gif)
 
