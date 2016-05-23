@@ -23,9 +23,19 @@ And the idea from [laobie's WriteMarkdownLazily](https://github.com/laobie/Write
 
 ### Do
 
-Maybe for running the script in **windows** ,you need do some other work [Add Registry](https://mindlesstechnology.wordpress.com/2008/03/29/make-python-scripts-droppable-in-windows/) 
+**Maybe** for running the script in **windows** ,you need do some other work [Add Registry](https://mindlesstechnology.wordpress.com/2008/03/29/make-python-scripts-droppable-in-windows/) 
 
-Register in qiniu or other platform ,get some keys. 
+* Register in qiniu or other platform.
+
+* use pip to install qiuniu Python SDK " pip install qiniu"
+
+*  get two keys like below:
+
+![qiniu2.png](http://7xrl8j.com1.z0.glb.clouddn.com/qiniu2.png)
+
+* get bucket_name and bucket_url like below:
+
+![qiniu1.png](http://7xrl8j.com1.z0.glb.clouddn.com/qiniu1.png)
 
 and source code is very easy,**you can do anything you want with these code**!
 
