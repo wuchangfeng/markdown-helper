@@ -11,12 +11,6 @@ import os
 allen's script for uploading img to qiniu and get md_url
 '''
 
- 
-
-if os.path.exists(result_file):
-    os.remove(result_file)
-os.chdir(sys.path[0])
-
 
 # you need get yours msg here
 access_key = "XXXX"
