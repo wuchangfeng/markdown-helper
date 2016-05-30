@@ -47,6 +47,7 @@ enjoy!!!
 
 * in 1.0 version ,you can get md_url from txt
 * in 1.1 version,you  not only can get all md_urls from txt file,also you can get the lastest markdown url from your clipboard.
+* in 1.2 version，support Private Space.you can see detail in MdScript2.py
 * in next version i want to add the function that can  compress the img and resize img! you can pull and request.
 
 
