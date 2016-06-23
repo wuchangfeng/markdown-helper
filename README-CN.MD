@@ -36,6 +36,7 @@ bucket_url = 'XXXX'
 
 ## Usage
 
-![MarkDownHelper.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
+![MarkDownHelper3.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper3.gif)
+
 
 
