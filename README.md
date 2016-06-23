@@ -55,8 +55,15 @@ enjoy!!!
 
 ### Use and Effect
 
+### v1.1
+![md.gif](http://upload-images.jianshu.io/upload_images/1069257-35a8703c1f455ccc.gif?imageMogr2/auto-orient/strip)
+
+### v1.2
+![md_2.gif](http://upload-images.jianshu.io/upload_images/1069257-864eebb4f93b1879.gif?imageMogr2/auto-orient/strip)
+
 ###  v1.3
-![MarkDownHelper.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
+![MarkDownHelper3.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper3.gif)
+
 
 
 
