@@ -1,7 +1,13 @@
 
+**因为只需要配置 Python 环境，所以应该支持 Mac 下的吧？Linux 和 win 我都测试过了，ok！！！**
+
 **2016.6.23 更新**
 
 [Update 以及中文 README](https://github.com/wuchangfeng/MarkDownHelper/blob/master/README-CN.MD)
+
+**2016.6.24 更新**
+
+[朋友写的 Mac 客户端版本的](https://www.v2ex.com/t/287683)
 
 ### ChangeLog
 
