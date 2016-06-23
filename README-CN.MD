@@ -2,6 +2,8 @@
 
 ## Update
 
+**新增删除本地文件功能**
+
 有朋友反映，七牛版面更新了，参数找不到了。ok，更新如下,四个划横线的地方。分别对应着代码中的四个配置参数的地方。
 
 ![markDownHelper2.png](http://7xrl8j.com1.z0.glb.clouddn.com/markDownHelper2.png)
