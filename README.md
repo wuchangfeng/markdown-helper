@@ -1,6 +1,7 @@
 
+**2016.6.23 更新**
 
-
+[Update 以及中文 README](https://github.com/wuchangfeng/MarkDownHelper/blob/master/README-CN.MD)
 
 
 ### About 
