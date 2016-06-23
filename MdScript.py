@@ -24,6 +24,7 @@ def upload_img(bucket_name,file_name,file_path):
     # generate token
     token = q.upload_token(bucket_name, file_name, 3600)
     info = put_file(token, file_name, file_path)
+    os.remove(file_path)
     return
 
 # get md_url 
