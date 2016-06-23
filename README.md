@@ -55,13 +55,9 @@ enjoy!!!
 
 ### Use and Effect
 
-#### v1.0
+###  v1.3
+![MarkDownHelper.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
 
-![md.gif](http://7xrl8j.com1.z0.glb.clouddn.com/md.gif)
-
-###  v1.1
-
-![md_2.gif](http://7xrl8j.com1.z0.glb.clouddn.com/md_2.gif)
 
 
 
