@@ -3,6 +3,12 @@
 
 [Update 以及中文 README](https://github.com/wuchangfeng/MarkDownHelper/blob/master/README-CN.MD)
 
+### ChangeLog
+
+* in 1.0 version ,you can get md_url from txt
+* in 1.1 version,you  not only can get all md_urls from txt file,also you can get the lastest markdown url from your clipboard.
+* in 1.2 version，support Private Space.you can see detail in MdScript2.py
+* in 1.3 version,after upload imgs to qiniu,it will delete local imgs automaticly!!!
 
 ### About 
 
@@ -44,12 +50,7 @@ all is easy  for pythoner!
 
 enjoy!!!
 
-### ChangeLog
 
-* in 1.0 version ,you can get md_url from txt
-* in 1.1 version,you  not only can get all md_urls from txt file,also you can get the lastest markdown url from your clipboard.
-* in 1.2 version，support Private Space.you can see detail in MdScript2.py
-* in next version i want to add the function that can  compress the img and resize img! you can pull and request.
 
 
 ### Use and Effect
