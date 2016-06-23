@@ -34,3 +34,8 @@ bucket_url = 'XXXX'
 
 ![MDHelper4.png](http://7xrl8j.com1.z0.glb.clouddn.com/MDHelper4.png)
 
+## Usage
+
+![MarkDownHelper.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
+
+
