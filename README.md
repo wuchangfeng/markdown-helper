@@ -1,6 +1,10 @@
 
 **中文版 MarkDownHelper.py**
 
+QQ:437806668
+
+Email:wuchangfeng2015@gmail.com
+
 [Mac 客户端版本](https://www.v2ex.com/t/287683)
 
 ## About
@@ -34,9 +38,9 @@ bucket_url = 'XXXX'
 
 * 安装好 Python 环境。
 * 安装七牛的 SDK pip install qiniu ，这个过程中你也需要安装一下 pip 这个工具。
-* 完成上述步骤后，脚本默认的打开方式应该是 python，也就是脚本的图标应该是有 Python 标志的。如果不是，请右击选择默认打开方式。
-* 拖动图片到脚本上即可
-* 如果拖动没有反应，大家可以自己调试。在 CMD 窗口下找到脚本所在的路径：输入 python MaScript.py 即可。报错信息在 CMD 窗口都能看得到。
+* 完成上述步骤后，脚本默认的打开方式应该是 python，也就是脚本的图标应该是有 Python 标志的,也就是 Tips 中第二张图 MdHelper.py     那个样子。如果不是，请右击选择默认打开方式为 Python。
+* 拖动图片到脚本上即可。
+* 如果拖动没有反应，大家可以自己调试。在 CMD 窗口下找到脚本**所在的路径**如我的脚本在 C:\Users\allen\Desktop\MDHelper 那么我打开 CMD 后 cd C:\Users\allen\Desktop\MDHelper，接着输入 python MarkDownHelper.py 即可。报错信息在 CMD 窗口都能看得到。
 
 ## Tips
 
@@ -62,10 +66,11 @@ bucket_url = 'XXXX'
 *  in 1.1 version,将最近上传的图片 URL，保存在黏贴板中，你也可以直接黏贴到你的 MarkDown 编辑器中。 
 *  in 1.2 version，这个版本支持私有空间哦。具体你可以看 mdScript2.py 这个脚本。只需要黏贴一点代码到 MarkDownhelper.py 中即可。
 *  in 1.3 version,在1.3 版本中，增加了删除本地文件图片的功能。这个功能很好用，因为文件夹中图片越来越多，你也看着不爽。不过删除是从系统     中删除哦，意味着，回收站内也没有。当然，如果你不想要这个功能，注释 MarkDownHelper 一句代码即可。
+*  in 1.4 version,这个版本我在如下平台测试了: win7,win10,Ubuntu。Mac 还没有，不过我想 Mac 应该没有问题，因为脚本的运行只依赖 Python       环境，Mac 对 Python 的支持应该更友好。如果有 Mac 用户的朋友，用了有问题欢迎 issues。
 
 ## Thanks
 
-这个脚本的灵感来源:[laobie's WriteMarkdownLazily](https://github.com/laobie/WriteMarkdownLazily),感谢。
+脚本的灵感来源:[laobie's WriteMarkdownLazily](https://github.com/laobie/WriteMarkdownLazily),感谢。
 
 ## License
 
