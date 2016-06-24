@@ -7,6 +7,8 @@ Email:wuchangfeng2015@gmail.com
 
 [Mac 客户端版本](https://www.v2ex.com/t/287683)
 
+**脚本不支持 Mac.Orz**
+
 ## About
 
 MarkDown 相信已经成为技术人员的写文档，博客的标配啦。
