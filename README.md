@@ -48,6 +48,8 @@ bucket_url = 'XXXX'
 
 最后建议你们这样来使用这个脚本：在桌面上新建一个文件夹:MdHelper,把所有截图和脚本都可以放在这个文件夹内。**拖动图片到脚本上即可**。
 
+另外，图片的命名不要是中文，因为你中文托上去好像没有反应。Orz，有空我回来搞定他。
+
 **一切都很 Easy！！！**
 
 ![MdHelper3.png](http://7xrl8j.com1.z0.glb.clouddn.com/MdHelper3.png)
