@@ -5,9 +5,9 @@ QQ:437806668
 
 Email:wuchangfeng2015@gmail.com
 
-[Mac 客户端版本](https://www.v2ex.com/t/287683)
+**脚本不支持 Mac.Orz** [推荐 Mac 客户端版本](https://www.v2ex.com/t/287683)
 
-**脚本不支持 Mac.Orz**
+**请先看 ChangeLog 了解最新变化**
 
 ## About
 
@@ -71,6 +71,7 @@ bucket_url = 'XXXX'
 *  in 1.2 version，这个版本支持私有空间哦。具体你可以看 mdScript2.py 这个脚本。只需要黏贴一点代码到 MarkDownhelper.py 中即可。
 *  in 1.3 version,在1.3 版本中，增加了删除本地文件图片的功能。这个功能很好用，因为文件夹中图片越来越多，你也看着不爽。不过删除是从系统     中删除哦，意味着，回收站内也没有。当然，如果你不想要这个功能，注释 MarkDownHelper 一句代码即可。
 *  in 1.4 version,这个版本我在如下平台测试了: win7,win10,Ubuntu。Mac 还没有，不过我想 Mac 应该没有问题，因为脚本的运行只依赖 Python       环境，Mac 对 Python 的支持应该更友好。如果有 Mac 用户的朋友，用了有问题欢迎 issues。
+*  in 1.5 version,增加了压缩图片的功能，因为七牛云免费容量有限。利用 tinyPNG     的图片压缩功能压缩图片至原图的三分之一。但是带来的影响就是图片拖动反应变慢。所以这个版本是一个选择版本，你可以在 markDownHelper2.py 中选择使用该功能。[TinyPNG 的 API 文档](https://tinypng.com/developers/reference/python)
 
 ## Thanks
 
