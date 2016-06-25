@@ -58,9 +58,10 @@ bucket_url = 'XXXX'
 
 ## Usage
 
-[动图看不了，请戳这里](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper3.gif)
+[动图看不了的话，请戳这里1](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper3.gif)
+[动图看不了的话，请戳这里2](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
 
-![md_2.gif](http://upload-images.jianshu.io/upload_images/1069257-864eebb4f93b1879.gif?imageMogr2/auto-orient/strip)
+![](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
 
 ![MarkDownHelper3.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper3.gif)
 
