@@ -24,7 +24,7 @@ os.chdir(sys.path[0])
 access_key = "XXXX"
 secret_key =  "XXXX"
 bucket_name =  "XXXX"
-bucket_url =  "XXXX"
+bucket_url =  "XXXx"
 md_url_result = "md_url.txt"
 
 img_suffix = ["jpg", "jpeg", "png", "bmp", "gif"]
