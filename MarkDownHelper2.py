@@ -1,5 +1,8 @@
 #! /usr/bin/python
 #-*- coding: utf-8 -*-
+···
+https://tinypng.com/developers/reference/python 压缩图片的 API URL\
+···
 
 from qiniu import Auth, put_file, etag, urlsafe_base64_encode
 import qiniu.config
