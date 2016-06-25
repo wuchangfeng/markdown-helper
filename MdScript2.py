@@ -7,7 +7,7 @@ secret_key = '...'
 
 q = Auth(access_key, secret_key)
 
-bucket_domain = '...' #可以在空间设置的域名设置中找到
+bucket_domain = '...' #可以在空间设置的域名设置找到
 key = 'test_private_key'
 base_url = 'http://%s/%s' % (bucket_domain, key)
 private_url = q.private_download_url(base_url, expires=3600)
