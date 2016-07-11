@@ -12,25 +12,23 @@ import os
 2:pip install --upgrade tinify
 '''
 
-
-
 # you need get yours msg here
 tinify.key = "xxxx"
 
-
 if __name__ == '__main__':
-
+    
+    # drop and handle
     imgs = sys.argv[1:]
 
     for img in imgs:
-
         source = tinify.from_file(img)
-        
+        # what size you nedd
 	resized = source.resize(
  	   method="fit",
     	   width=200,
            height=300
 	)
-
+	# delete original img
         os.remove(img)
+        # generate new img
 	resized.to_file(img)
