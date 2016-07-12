@@ -7,7 +7,7 @@ https://tinypng.com/developers/reference/python 压缩图片的 API URL
 from qiniu import Auth, put_file, etag, urlsafe_base64_encode
 import qiniu.config
 from qiniu import BucketManager
-import sys
+import sys,time
 import os
 import msvcrt
 import datetime
@@ -21,7 +21,6 @@ result_file = "ss.txt"
 if os.path.exists(result_file):
     os.remove(result_file)
 os.chdir(sys.path[0])
-
 
 # you need get yours msg here
 tinify.key = "xxxx"
@@ -62,18 +61,13 @@ def addToClipBoard(text):
 	command = 'echo ' + text.strip() + '| clip'
 	os.system(command)
 
-
-
 if __name__ == '__main__':
-
     q = Auth(access_key, secret_key)
     bucket = BucketManager(q)
     imgs = sys.argv[1:]
-
     for img in imgs:
         source = tinify.from_file(img)
-        up_filename = os.path.split(img)[1]
-        # delete local imgFile
+        up_filename = time.strftime("%Y/%m/%d/%X ", time.localtime())
         # os.remove(img)
         source.to_file(img)
         upload_img(bucket_name,up_filename,img)
