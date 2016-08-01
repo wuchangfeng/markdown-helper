@@ -63,6 +63,6 @@ if __name__ == '__main__':
     imgs = sys.argv[1:]
     for img in imgs:
     	# name for img with local time 
-        up_filename = time.strftime("%Y/%m/%d/%X ", time.localtime())
+        up_filename = os.path.split(img)[1]
         upload_img(bucket_name,up_filename,img)
         save_to_txt(bucket_url,up_filename)
