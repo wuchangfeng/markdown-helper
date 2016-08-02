@@ -1,12 +1,4 @@
 
-**中文版 MarkDownHelper.py**
-
-QQ:437806668
-
-Email:wuchangfeng2015@gmail.com
-
-**脚本不支持 Mac.Orz** [推荐 Mac 客户端版本](https://www.v2ex.com/t/287683)
-
 **请先看 ChangeLog 了解最新变化**
 
 ## About
@@ -18,10 +10,9 @@ MarkDown 相信已经成为技术人员的写文档，博客的标配啦。
 利用 Python 的 Drop ， Handle 思想，写出了该脚本。如下 GIF 所示，你只需要将图片或者 GIF 拖动到脚本上，即可生成 MarkDown 格式 URL 在你 TXT 文档和你的黏贴板中，直接右键黏贴即可。省去了不少步骤。
 
 
-
 ## Install
 
-有朋友反映，七牛版面更新了，参数找不到了。ok，更新如下,四个划横线的地方。分别对应着代码中的四个配置参数的地方。
+四个配置参数的地方：
 
 ![markDownHelper2.png](http://7xrl8j.com1.z0.glb.clouddn.com/markDownHelper2.png)
 ![markDownHelper1.png](http://7xrl8j.com1.z0.glb.clouddn.com/markDownHelper1.png)
@@ -48,21 +39,9 @@ bucket_url = 'XXXX'
 
 最后建议你们这样来使用这个脚本：在桌面上新建一个文件夹:MdHelper,把所有截图和脚本都可以放在这个文件夹内。**拖动图片到脚本上即可**。
 
-另外，图片的命名不要是中文，因为你中文托上去好像没有反应。Orz，有空我回来搞定他。
-
-**一切都很 Easy！！！**
-
-![MdHelper3.png](http://7xrl8j.com1.z0.glb.clouddn.com/MdHelper3.png)
-
-![MDHelper4.png](http://7xrl8j.com1.z0.glb.clouddn.com/MDHelper4.png)
+另外，图片的命名不要是中文，因为你中文托上去好像没有反应。
 
 ## Usage
-
-[动图看不了的话，请戳这里1](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper3.gif)
-
-[动图看不了的话，请戳这里2](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
-
-![](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper.gif)
 
 ![MarkDownHelper3.gif](http://7xrl8j.com1.z0.glb.clouddn.com/MarkDownHelper3.gif)
 
@@ -72,7 +51,7 @@ bucket_url = 'XXXX'
 *  in 1.1 version,将最近上传的图片 URL，保存在黏贴板中，你也可以直接黏贴到你的 MarkDown 编辑器中。 
 *  in 1.2 version，这个版本支持私有空间哦。具体你可以看 mdScript2.py 这个脚本。只需要黏贴一点代码到 MarkDownhelper.py 中即可。
 *  in 1.3 version,在1.3 版本中，增加了删除本地文件图片的功能。这个功能很好用，因为文件夹中图片越来越多，你也看着不爽。不过删除是从系统     中删除哦，意味着，回收站内也没有。当然，如果你不想要这个功能，注释 MarkDownHelper 一句代码即可。
-*  in 1.4 version,这个版本我在如下平台测试了: win7,win10,Ubuntu。Mac 还没有，不过我想 Mac 应该没有问题，因为脚本的运行只依赖 Python       环境，Mac 对 Python 的支持应该更友好。如果有 Mac 用户的朋友，用了有问题欢迎 issues。
+*  in 1.4 version,这个版本我在如下平台测试了: win7,win10,Ubuntu。
 *  in 1.5 version,增加了压缩图片的功能，因为七牛云免费容量有限。利用 tinyPNG     的图片压缩功能压缩图片至原图的三分之一。但是带来的影响就是图片拖动反应变慢。所以这个版本是一个选择版本，你可以在 markDownHelper2.py 中选择使用该功能。[TinyPNG 的 API 文档](https://tinypng.com/developers/reference/python)
 
 ## Thanks
