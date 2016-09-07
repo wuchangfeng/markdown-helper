@@ -38,10 +38,13 @@ def upload_img(bucket_name,file_name,file_path):
     return
 
 def get_img_url(bucket_url,file_name):
-    img_url = 'http://%s/%s' % (bucket_url,file_name)
+    # ?imageMogr2/thumbnail/!65p
+    file_names = file_name + '?imageMogr2/thumbnail/!75p'
+    img_url = 'http://%s/%s' % (bucket_url,file_names)
     # generate md_url
     md_url = "![%s](%s)\n" % (file_name, img_url)
     return md_url
+
 
 def save_to_txt(bucket_url,file_name):
     url_before_save = get_img_url(bucket_url,file_name)
